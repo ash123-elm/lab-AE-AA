@@ -2,11 +2,7 @@
 # Partner 1: Asher Elman
 # Partner 2: Aidan Arjune
 
-import unittest
-import calculator
 import math
-
-
 
 def add(a, b):
     return a + b
@@ -14,10 +10,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def mul(a, b):
+def multiply(a, b):
     return a * b
 
-def div(a, b):
+def divide(a, b):
     # Specified behavior: return b / a ; raise ZeroDivisionError if a == 0
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero (divisor 'a' was 0)")
