@@ -1,3 +1,7 @@
+# https://github.com/ash123-elm/lab-AE-AA.git
+# Partner 1: Asher Elman
+# Partner 2: Aidan Arjune
+
 import unittest
 from calculator import *
 
