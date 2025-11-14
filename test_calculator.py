@@ -32,7 +32,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             square_root(-1)
 
-def test_add(self):
+    def test_add(self):
         self.assertEqual(add(3, 5), 8)
         self.assertEqual(add(-2, 7), 5)
         self.assertEqual(add(-4, -6), -10)
