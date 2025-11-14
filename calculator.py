@@ -14,14 +14,11 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    # Specified behavior: return b / a ; raise ZeroDivisionError if a == 0
-    if a == 0:
-        raise ZeroDivisionError("Cannot divide by zero (divisor 'a' was 0)")
-    return b / a
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero (divisor 'b' was 0)")
+    return a / b
 
 def logarithm(a, b):
-    # return log base a of b
-    # both base and argument must be positive, base != 1
     if a <= 0 or b <= 0:
         raise ValueError("Logarithm base and argument must be positive")
     if a == 1:
@@ -37,5 +34,4 @@ def square_root(a):
     return math.sqrt(a)
 
 def hypotenuse(a, b):
-    # returns sqrt(a² + b²)
     return math.sqrt(a**2 + b**2)
