@@ -1,6 +1,7 @@
-# https://github.com/your-username/your-repo
-# Partner 1: Your Name
-# Partner 2: Partner Name
+# https://github.com/ash123-elm/lab-AE-AA.git
+# Partner 1: Asher Elman
+# Partner 2: Aidan Arjune
+
 import unittest
 import calculator
 import math
