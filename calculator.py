@@ -10,10 +10,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     # Specified behavior: return b / a ; raise ZeroDivisionError if a == 0
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero (divisor 'a' was 0)")
